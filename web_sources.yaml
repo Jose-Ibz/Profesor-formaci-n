@@ -1,0 +1,35 @@
+courses:
+  - name: Sadira
+    seeds:
+      - https://www.sadira.es/
+      - https://www.sadira.es/productos/
+    max_pages: 12
+
+  - name: Garmin
+    seeds:
+      - https://support.garmin.com/es-ES/          # Portal de soporte en español
+      - https://support.garmin.com/es-ES/marine/  # Sección náutica (manuales, FAQs)
+      - https://www.garmin.com/es-ES/marine/      # Página de productos náuticos
+      - https://www.garmin.com/es-ES/marine/chartplotters/ # Ejemplo de categoría concreta
+      - https://www.garmin.com/es-ES/marine/radar/        # Otra categoría náutica
+    max_pages: 8
+
+  - name: Raymarine
+    seeds:
+      - https://www.raymarine.com/es-es
+    max_pages: 8
+
+  - name: Vetus
+    seeds:
+      - https://www.vetus.com/
+    max_pages: 12
+
+  - name: Torqeedo
+    seeds:
+      - https://www.torqeedo.com
+    max_pages: 8
+
+  - name: Furuno
+    seeds:
+      - https://www.furuno.com
+    max_pages: 8
