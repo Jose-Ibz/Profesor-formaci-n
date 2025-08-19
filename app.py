@@ -439,9 +439,12 @@ if not HIDE_ADMIN:
                 except Exception as e:
                     st.error(f"Error creando índice: {e}")
         with colD:
-            st.caption(f"📂 Datos: {DATA_DIR.resolve()}
-🌐 Web: {WEB_DIR.resolve()}
-🗂 Índice: {INDEX_PATH.resolve()}")
+            st.caption(
+    f"📂 Datos: {DATA_DIR.resolve()}\\n"
+    f"🌐 Web: {WEB_DIR.resolve()}\\n"
+    f"🗂 Índice: {INDEX_PATH.resolve()}"
+)
+
 
         st.toggle("🔍 Ver logs de crawling (VERBOSE)", value=VERBOSE_CRAWL, key="verbose_toggle")
         if st.session_state.get("verbose_toggle") and not VERBOSE_CRAWL:
