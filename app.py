@@ -1,4 +1,4 @@
-# app_rag_multi_web.py — Chatbot Profesor (multi‑cursos + webs oficiales)
+# app_rag_multi_web.py — Nautic Profesor 
 # -----------------------------------------------------------------------
 # Añade INGESTA desde webs oficiales por curso y las combina con las transcripciones .txt.
 # Mantiene RAG local con embeddings. Permite elegir cursos y re‑crawl.
