@@ -1,6 +1,9 @@
 streamlit
-openai>=1.0.0
+openai
 python-dotenv
-tqdm
+gdown
+numpy
+pyyaml
 requests
 beautifulsoup4
+tldextract
